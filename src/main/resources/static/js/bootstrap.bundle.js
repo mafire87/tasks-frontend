@@ -11,7 +11,7 @@
 
   $ = $ && $.hasOwnProperty('default') ? $['default'] : $;
 
-  function _defineProperties(target, props) {
+  function _defineProperties(target, props) //{
     for (var i = 0; i < props.length; i++) {
       var descriptor = props[i];
       descriptor.enumerable = descriptor.enumerable || false;
