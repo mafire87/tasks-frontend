@@ -31,7 +31,7 @@ public class TasksController {
 	}
 	
 	@GetMapping("")
-	public String //index(Model model) 
+	public String index(Model model) 
 					{
 		model.addAttribute("todos", getTodos());
 		if(VERSION.startsWith("build"))
