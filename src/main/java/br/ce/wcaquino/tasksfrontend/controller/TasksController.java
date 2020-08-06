@@ -59,7 +59,7 @@ public class TasksController {
 			m.find();
 			model.addAttribute("error", m.group(1));
 			model.addAttribute("todo", todo);
-			return "add"
+			return "add"; 
 		} finally {
 			model.addAttribute("todos", getTodos());
 		}
